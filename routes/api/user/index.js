@@ -43,7 +43,7 @@ router.post("/signup", async (req, res) => {
           req.body.firstName + " " + req.body.lastName
         }</b>. We welcome to our platform</p>
         <p>To verify your account, click below</p>
-        <a href="https://friendly-lewin-49b883.netlify.app/verify/${token}">Click Here</a>
+        <a href="https://prakash-amazon.netlify.app/verify/${token}">Click Here</a>
         </div>
         `,
     };
