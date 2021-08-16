@@ -20,7 +20,10 @@ const productSchema = mongoose.Schema({
    keywords:[{
        type:String,
        required:true,
-   }]
+   }],
+   ratings:{
+       type:String,
+   }
 },{
     timestamps:true
 })

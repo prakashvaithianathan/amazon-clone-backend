@@ -14,6 +14,8 @@ router.get("/add", async (req, res) => {
   }
 });
 
+
+
 router.get("/update", async (req, res) => {
   await productModel.updateMany({ qty: 1 });
   res.json("updated");
